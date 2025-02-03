@@ -9,6 +9,7 @@ public class Employee{
 	private String name; //name
 	private String emailid; // employee email id
 	private String location; // employee location
+	private float salary; // employee salary
 
 	public int getId() {
 		return id;
@@ -40,6 +41,14 @@ public class Employee{
 
 	public void setLocation(String location) {
 		this.location = location;
+	}
+	
+	public float getSalary() {
+		return salary;
+	}
+
+	public void setSalary(float salary) {
+		this.salary = salary;
 	}
 
 	/**

@@ -1,4 +1,4 @@
-package com.wipro.oops.polymorphism;
+package com.wipro.java.oops.polymorphism;
 
 public class Car {
 	private String brandName;

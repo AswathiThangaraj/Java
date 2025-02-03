@@ -1,15 +1,15 @@
-package com.wipro.oops.polymorphism;
+package com.wipro.java.oops.polymorphism;
 
-public class MyCar extends Car {
+public class OurCar extends Car {
     @Override
     public void show() {
         System.out.println("This is a car: " + getBrandName() + ", " + "Manufacture year is" + ", " + getYear());
     }
 
     public static void main(String a[]) {
-        Car mycar1 = new MyCar();
-        mycar1.setBrandName("BMW");
-        mycar1.setYear(2018);
-        mycar1.show();
+        Car ourcar = new MyCar();
+        ourcar.setBrandName("Audi");
+        ourcar.setYear(2024);
+        ourcar.show();
     }
 }

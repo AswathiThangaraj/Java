@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.wipro.java.oops;
+package com.wipro.java.oops.inheritance;
 
 
 public class Employee{
@@ -58,9 +58,6 @@ public class Employee{
 		// TODO Auto-generated constructor stub
 	}
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 

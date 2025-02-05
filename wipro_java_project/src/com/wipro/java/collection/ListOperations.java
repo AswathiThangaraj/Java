@@ -19,7 +19,7 @@ public class ListOperations {
 		l2.add(2);
 		l2.add(3);
 		
-		//joining items of l2 in l1
+		//joining items of l2 in l1 at index position 1
 		l1.addAll(1, l2);
 		System.out.println(l1);
 		

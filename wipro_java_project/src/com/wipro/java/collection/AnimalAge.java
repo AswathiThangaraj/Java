@@ -17,7 +17,7 @@ public class AnimalAge implements Comparator<Animal1> {
         a1.add(new Animal1("Cat", 3));
         a1.add(new Animal1("Elephant", 10));
 		
-        //sorting
+        //sorting AnimalAge
 		Collections.sort(a1, new AnimalAge());
 		
 		//after sorting print age

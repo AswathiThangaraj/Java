@@ -16,7 +16,10 @@ public class Name implements Comparator<Movie1> {
 		m1.add(new Movie1("Empire Strikes Back", 8.7, 1977));
 		m1.add(new Movie1("Return of the Jedi", 8.8, 1980));
 		
+		//sorting
 		Collections.sort(m1, new Name());
+		
+		//print names after sorting
 		System.out.println("\nMovies sorted by name:");
 		for (Movie1 m : m1) {
 			System.out.println(m.getN() + " " + m.getR() + " " + m.getY());

@@ -16,7 +16,10 @@ public class Year implements Comparator<Movie1> {
 		m1.add(new Movie1("Empire Strikes Back", 8.7, 1977));
 		m1.add(new Movie1("Return of the Jedi", 8.8, 1980));
 		
+		//sorting
 		Collections.sort(m1, new Year());
+		
+		//after sorting print year
 		System.out.println("Movies sorted by year:");
 		for (Movie1 m : m1 ) {
 			System.out.println(m.getR() + " " + m.getN() + " " + m.getY());

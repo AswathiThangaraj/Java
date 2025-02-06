@@ -16,7 +16,7 @@ public class Adjust {
 		LocalDate dayOfNextMonth = date.with(TemporalAdjusters.firstDayOfMonth());
 		System.out.println("First day of next month is:" + dayOfNextMonth);
 		
-		//next saturday
+		//next saturday 
 		LocalDate nextSaturday = date.with(TemporalAdjusters.next(DayOfWeek.SATURDAY));
 		System.out.println("Next Saturday from now is:" + nextSaturday);
 		

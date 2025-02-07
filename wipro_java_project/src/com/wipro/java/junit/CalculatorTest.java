@@ -30,4 +30,5 @@ public class CalculatorTest {
 		int result = calculator.subtract(-3, -2); //subtract
 		assertEquals(-1, result); //to validate the expected results
 	}
+	
 }

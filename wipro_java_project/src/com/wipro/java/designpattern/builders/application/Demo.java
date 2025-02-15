@@ -1,10 +1,10 @@
-package com.wipro.java.builders.application;
+package com.wipro.java.designpattern.builders.application;
 
-import com.wipro.java.builders.CarBuilder;
-import com.wipro.java.builders.CarManualBuilder;
-import com.wipro.java.builders.cars.Car;
-import com.wipro.java.builders.cars.Manual;
-import com.wipro.java.builders.director.Director;
+import com.wipro.java.designpattern.builders.CarBuilder;
+import com.wipro.java.designpattern.builders.CarManualBuilder;
+import com.wipro.java.designpattern.builders.cars.Car;
+import com.wipro.java.designpattern.builders.cars.Manual;
+import com.wipro.java.designpattern.builders.director.Director;
 
 /**
  * Demo class. Everything comes together here.

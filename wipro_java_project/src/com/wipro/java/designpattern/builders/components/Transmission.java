@@ -1,4 +1,4 @@
-package com.wipro.java.builders.components;
+package com.wipro.java.designpattern.builders.components;
 
 public enum Transmission {
     SINGLE_SPEED, MANUAL, AUTOMATIC, SEMI_AUTOMATIC

@@ -1,6 +1,6 @@
-package com.wipro.java.builders.components;
+package com.wipro.java.designpattern.builders.components;
 
-import com.wipro.java.builders.cars.Car;
+import com.wipro.java.designpattern.builders.cars.Car;
 
 /**
  * Just another feature of a car.

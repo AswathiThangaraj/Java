@@ -1,9 +1,9 @@
-package com.wipro.java.builders.cars;
+package com.wipro.java.designpattern.builders.cars;
 
-import com.wipro.java.builders.components.Engine;
-import com.wipro.java.builders.components.GPSNavigator;
-import com.wipro.java.builders.components.Transmission;
-import com.wipro.java.builders.components.TripComputer;
+import com.wipro.java.designpattern.builders.components.Engine;
+import com.wipro.java.designpattern.builders.components.GPSNavigator;
+import com.wipro.java.designpattern.builders.components.Transmission;
+import com.wipro.java.designpattern.builders.components.TripComputer;
 
 /**
  * Car is a product class.

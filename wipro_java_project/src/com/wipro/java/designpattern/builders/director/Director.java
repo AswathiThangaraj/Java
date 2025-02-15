@@ -1,11 +1,11 @@
-package com.wipro.java.builders.director;
+package com.wipro.java.designpattern.builders.director;
 
-import com.wipro.java.builders.Builder;
-import com.wipro.java.builders.cars.CarType;
-import com.wipro.java.builders.components.Engine;
-import com.wipro.java.builders.components.GPSNavigator;
-import com.wipro.java.builders.components.Transmission;
-import com.wipro.java.builders.components.TripComputer;
+import com.wipro.java.designpattern.builders.Builder;
+import com.wipro.java.designpattern.builders.cars.CarType;
+import com.wipro.java.designpattern.builders.components.Engine;
+import com.wipro.java.designpattern.builders.components.GPSNavigator;
+import com.wipro.java.designpattern.builders.components.Transmission;
+import com.wipro.java.designpattern.builders.components.TripComputer;
 
 /**
  * Director defines the order of building steps. It works with a builder object

@@ -8,7 +8,6 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class Game {
-
     // Database connection details
     private static final String DB_URL = "jdbc:mysql://localhost:3306/game";
     private static final String DB_USER = "root";
